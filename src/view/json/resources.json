@@ -1,0 +1,11 @@
+[
+	{ "id": "a", "title": "Auditorium A" },
+	{ "id": "b", "title": "Auditorium B", "eventColor": "green" },
+	{ "id": "c", "title": "Auditorium C", "eventColor": "orange" },
+	{ "id": "f", "title": "Auditorium F", "eventColor": "red" },
+	{ "id": "g", "title": "Auditorium G" },
+	{ "id": "h", "title": "Auditorium H" },
+	{ "id": "i", "title": "Auditorium I" },
+	{ "id": "j", "title": "Auditorium J" },
+	{ "id": "k", "title": "Auditorium K" }
+]
