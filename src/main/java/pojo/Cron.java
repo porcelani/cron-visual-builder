@@ -1,38 +1,37 @@
 package pojo;
 
 public class Cron {
-    private String cron;
 
-    private String duration;
+    private String name;
+    private String cronExpression;
+    private int duration;
 
-    private String title;
-
-    public String getCron() {
-        return cron;
+    public String getCronExpression() {
+        return cronExpression;
     }
 
-    public void setCron(String cron) {
-        this.cron = cron;
+    public void setCronExpression(String cronExpression) {
+        this.cronExpression = cronExpression;
     }
 
-    public String getDuration() {
+    public int getDuration() {
         return duration;
     }
 
-    public void setDuration(String duration) {
+    public void setDuration(int duration) {
         this.duration = duration;
     }
 
-    public String getTitle() {
-        return title;
+    public String getName() {
+        return name;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
+    public void setName(String name) {
+        this.name = name;
     }
 
     @Override
     public String toString() {
-        return "ClassPojo [cron = " + cron + ", duration = " + duration + ", title = " + title + "]";
+        return "ClassPojo [cronExpression = " + cronExpression + ", duration = " + duration + ", name = " + name + "]";
     }
 }

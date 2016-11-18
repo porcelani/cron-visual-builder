@@ -14,7 +14,7 @@ public class CronReader {
 
     public static final String FILE_NAME = "cron.json";
 
-    public List<Cron> print() throws IOException {
+    public List<Cron> reader() throws IOException {
         Gson gson = new Gson();
         Type listType = new TypeToken<ArrayList<Cron>>(){}.getType();
         return gson.fromJson(getContentString(FILE_NAME), listType);

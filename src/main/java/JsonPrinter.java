@@ -2,11 +2,12 @@ import com.google.gson.Gson;
 import pojo.Event;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class JsonPrinter {
-    ArrayList<Event> events;
+    List<Event> events;
 
-    public JsonPrinter(ArrayList<Event> events) {
+    public JsonPrinter(List<Event> events) {
         this.events = events;
     }
 

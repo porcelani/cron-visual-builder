@@ -1,3 +1,13 @@
 [
-	{ "title": "title", "cron": "0 0 0,5,11,17 * ? *", "duration": 15}
+  {
+    "name": "name1",
+    "cronExpression": "0 0 4 * * ?",
+    "duration": 15
+  },
+  {
+    "name": "name2",
+    "cronExpression": "0 0 5 * * ?",
+    "duration": 15
+  }
+
 ]
